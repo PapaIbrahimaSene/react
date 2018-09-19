@@ -1,0 +1,221 @@
+html,
+body,
+main,
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+body,
+.login {
+    background: #127ccb;
+    background: linear-gradient(#127ccb, #3aa9df);
+}
+
+.bar {
+    border-radius: 0;
+}
+
+.listing .logo {
+    background-image: url(../img/busbud_logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 105px;
+    height: 50px;
+    margin: 20px 50px;
+}
+
+main {
+    height: 100%;
+}
+
+.listingProper {
+    min-height: 100px;
+}
+
+.listing .am-list-body {
+    background-color: rgba(255, 255, 255, 1);
+    width: 71%;
+    margin: 35px auto auto auto;
+    padding: 5px 15px 7px;
+    background: #fff;
+    border: 1px dotted #999 !important;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+    .listing .am-list-body {
+        width: 79%;
+        margin-top: 125px;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+.listing .am-navbar {
+    background-color: #f1fafe;
+    width: 66%;
+    height: 225px !important;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.listing .am-button {
+    width: 75%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .listing .am-navbar {
+        top: 100px;
+        width: 100%;
+    }
+}
+
+.login .am-navbar-title {
+    font-size: 20px !important;
+    color: #07406b !important;
+}
+
+.calendarTop {
+    color: #07406b !important;
+}
+
+.listing .am-list-footer {
+    color: rgb(2, 0, 43) !important;
+}
+
+.listing .highlight {
+    color: #127ccb;
+    font-size: 95% !important;
+}
+
+.infoColor {
+    font-size: 85% !important;
+    color: #f7921e;
+}
+
+@media only screen and (max-width: 600px) {
+    .infoColor {
+        font-size: 71% !important;
+    }
+}
+
+.listing .iconfont {
+    margin: 0px 5px;
+}
+
+.listing .calendarTop {
+    background-color: #f99d1c !important;
+    width: 100%;
+    right: 0;
+    top: 0;
+    text-align: right;
+    color: #222 !important;
+    position: absolute;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .listing .calendarTop {
+        width: 100%;
+    }
+}
+
+.listing .calendarTop .calendarTopTime {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.listing .destinationTitle {
+    font-size: 21px !important;
+    color: #333 !important;
+    width: 70%;
+    right: 0;
+    top: 65px;
+    position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+    .listing .destinationTitle {
+        font-size: 19px !important;
+    }
+}
+
+.am-navbar-left-icon {
+    margin-right: 5px;
+    display: inherit;
+    position: absolute;
+    top: 65px;
+    left: 45px;
+    z-index: 1;
+}
+
+.gray {
+    color: #777;
+    font-size: 70%;
+    margin-top: 0.5em;
+    letter-spacing: 0.045em;
+}
+
+.am-menu .am-flexbox .am-flexbox-item:first-child .am-list .am-list-item.am-menu-selected {
+    background-color: transparent !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.littleFont {
+    font-size: 12px;
+}
+
+.smallFont {
+    font-size: 14px;
+}
+
+.middleFont {
+    font-size: 16px;
+}
+
+.largeFont {
+    font-size: 18px;
+}
+
+.bigFont {
+    font-size: 100%;
+}
+
+.highGray {
+    color: #666;
+}
+
+.normalColor {
+    color: #333;
+}
+
+.littlePadding {
+    padding: 10px 0;
+}
+
+.padding {
+    padding: 20px 0;
+}
